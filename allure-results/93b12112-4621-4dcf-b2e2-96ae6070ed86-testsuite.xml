@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615802455604' stop='1615802522665'>
+    <name>The Automation Practice site E2E flow</name>
+    <title>The Automation Practice site E2E flow</title>
+    <test-cases>
+        <test-case start='1615802455613' status='passed' stop='1615802479340'>
+            <name>As a new user, I want to signin to the application</name>
+            <title>As a new user, I want to signin to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615802455617' status='passed' stop='1615802466344'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802466345' status='passed' stop='1615802478954'>
+                    <name>When I click on the sign in button</name>
+                    <title>When I click on the sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802478954' status='passed' stop='1615802479337'>
+                    <name>Then I should navigate to the My Accounts page</name>
+                    <title>Then I should navigate to the My Accounts page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615802479341' status='passed' stop='1615802500756'>
+            <name>As a new user, I want to create a new account</name>
+            <title>As a new user, I want to create a new account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615802479342' status='passed' stop='1615802489780'>
+                    <name>Given I am on the my account page</name>
+                    <title>Given I am on the my account page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802489780' status='passed' stop='1615802500421'>
+                    <name>When I enter the emailID and click on the Create an Account button</name>
+                    <title>When I enter the emailID and click on the Create an Account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802500421' status='passed' stop='1615802500755'>
+                    <name>Then I should navigate to the personal information page</name>
+                    <title>Then I should navigate to the personal information page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615802500757' status='passed' stop='1615802507951'>
+            <name>To register, the user has to provide his/her personal information</name>
+            <title>To register, the user has to provide his/her personal information</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615802500758' status='passed' stop='1615802501138'>
+                    <name>Given I am on the personal information page</name>
+                    <title>Given I am on the personal information page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802501138' status='passed' stop='1615802507421'>
+                    <name>When User enters the mandatory fields and click on Register button</name>
+                    <title>When User enters the mandatory fields and click on Register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802507421' status='passed' stop='1615802507950'>
+                    <name>Then The user should be registered and logged in successfully</name>
+                    <title>Then The user should be registered and logged in successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615802507951' status='broken' stop='1615802522651'>
+            <name>To add a product to cart</name>
+            <title>To add a product to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615802507952' status='passed' stop='1615802511730'>
+                    <name>Given User is logged in and on home page</name>
+                    <title>Given User is logged in and on home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802511730' status='failed' stop='1615802522648'>
+                    <name>When User views the product and clicks on add to cart</name>
+                    <title>When User views the product and clicks on add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615802522650' status='broken' stop='1615802522651'>
+                    <name>Then The user should be in payments page</name>
+                    <title>Then The user should be in payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "The user should be in payments page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "The user should be in payments page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\playproject\features\signin.feature):1:1
+                	at Scenario(To add a product to cart):21:3
+                	at Step(The user should be in payments page):25:5
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

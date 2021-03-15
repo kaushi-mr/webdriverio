@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615790491790' stop='1615790538307'>
+    <name>The Automation Practice site E2E flow</name>
+    <title>The Automation Practice site E2E flow</title>
+    <test-cases>
+        <test-case start='1615790491798' status='passed' stop='1615790511515'>
+            <name>As a new user, I want to signin to the application</name>
+            <title>As a new user, I want to signin to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615790491801' status='passed' stop='1615790498388'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615790498388' status='passed' stop='1615790511157'>
+                    <name>When I click on the sign in button</name>
+                    <title>When I click on the sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615790511158' status='passed' stop='1615790511513'>
+                    <name>Then I should navigate to the My Accounts page</name>
+                    <title>Then I should navigate to the My Accounts page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615790511516' status='passed' stop='1615790532864'>
+            <name>As a new user, I want to create a new account</name>
+            <title>As a new user, I want to create a new account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615790511517' status='passed' stop='1615790521892'>
+                    <name>Given I am on the my account page</name>
+                    <title>Given I am on the my account page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615790521893' status='passed' stop='1615790532502'>
+                    <name>When I enter the emailID and click on the Create an Account button</name>
+                    <title>When I enter the emailID and click on the Create an Account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615790532502' status='passed' stop='1615790532864'>
+                    <name>Then I should navigate to the personal information page</name>
+                    <title>Then I should navigate to the personal information page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615790532865' status='passed' stop='1615790538305'>
+            <name>To register, the user has to provide his/her personal information</name>
+            <title>To register, the user has to provide his/her personal information</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615790532866' status='passed' stop='1615790533216'>
+                    <name>Given I am on the personal information page</name>
+                    <title>Given I am on the personal information page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615790533216' status='passed' stop='1615790537835'>
+                    <name>When User enters the mandatory fields and click on Register button</name>
+                    <title>When User enters the mandatory fields and click on Register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615790537835' status='passed' stop='1615790538305'>
+                    <name>Then The user should be registered and logged in successfully</name>
+                    <title>Then The user should be registered and logged in successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
