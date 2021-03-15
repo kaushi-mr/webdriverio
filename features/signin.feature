@@ -22,4 +22,4 @@ Feature: The Automation Practice site E2E flow
 
     Given User is logged in and on home page
     When User views the product and clicks on add to cart
-    Then The user should be in payments page      
+    Then The user should be able to complete the purchase     

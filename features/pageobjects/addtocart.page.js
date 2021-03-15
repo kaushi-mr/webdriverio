@@ -14,14 +14,17 @@
     
     get checkout () { return $("//a[@title='Proceed to checkout']") }
     
-    async clickProduct () {
+    get productTitle(){return $("//span[@id='layer_cart_product_title']")}
+
+    async checkoutproduct(){
         await (await this.FirstProduct).scrollIntoView();
+        await browser.pause(5000)
         await (await this.FirstProduct).moveTo();
-        browser.pause(5000)
+        await browser.pause(5000)
         await (await this.addtocart).click();
-        browser.pause(5000)
-        browser.acceptAlert();
-        //await (await this.checkout).click();        
+        await browser.pause(5000)
+        await (await this.checkout).click();       
+        await browser.pause(5000)
     }
 
 }

@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615830244206' stop='1615830340940'>
+    <name>The Automation Practice site E2E flow</name>
+    <title>The Automation Practice site E2E flow</title>
+    <test-cases>
+        <test-case start='1615830244218' status='passed' stop='1615830265925'>
+            <name>As a new user, I want to signin to the application</name>
+            <title>As a new user, I want to signin to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615830244223' status='passed' stop='1615830251675'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830251675' status='passed' stop='1615830265356'>
+                    <name>When I click on the sign in button</name>
+                    <title>When I click on the sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830265358' status='passed' stop='1615830265923'>
+                    <name>Then I should navigate to the My Accounts page</name>
+                    <title>Then I should navigate to the My Accounts page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615830265926' status='passed' stop='1615830287457'>
+            <name>As a new user, I want to create a new account</name>
+            <title>As a new user, I want to create a new account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615830265926' status='passed' stop='1615830276362'>
+                    <name>Given I am on the my account page</name>
+                    <title>Given I am on the my account page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830276362' status='passed' stop='1615830287089'>
+                    <name>When I enter the emailID and click on the Create an Account button</name>
+                    <title>When I enter the emailID and click on the Create an Account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830287089' status='passed' stop='1615830287456'>
+                    <name>Then I should navigate to the personal information page</name>
+                    <title>Then I should navigate to the personal information page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615830287458' status='passed' stop='1615830292854'>
+            <name>To register, the user has to provide his/her personal information</name>
+            <title>To register, the user has to provide his/her personal information</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615830287459' status='passed' stop='1615830287868'>
+                    <name>Given I am on the personal information page</name>
+                    <title>Given I am on the personal information page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830287868' status='passed' stop='1615830292319'>
+                    <name>When User enters the mandatory fields and click on Register button</name>
+                    <title>When User enters the mandatory fields and click on Register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830292319' status='passed' stop='1615830292854'>
+                    <name>Then The user should be registered and logged in successfully</name>
+                    <title>Then The user should be registered and logged in successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615830292855' status='broken' stop='1615830340931'>
+            <name>To add a product to cart</name>
+            <title>To add a product to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615830292855' status='passed' stop='1615830296380'>
+                    <name>Given User is logged in and on home page</name>
+                    <title>Given User is logged in and on home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830296380' status='passed' stop='1615830320088'>
+                    <name>When User views the product and clicks on add to cart</name>
+                    <title>When User views the product and clicks on add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615830320088' status='broken' stop='1615830340930'>
+                    <name>Then The user should be able to complete the purchase</name>
+                    <title>Then The user should be able to complete the purchase</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: element click intercepted: Element &lt;input type="checkbox" name="cgv" id="cgv" value="1"> is not clickable at point (72, 7). Other element would receive the click: &lt;div class="fancybox-overlay fancybox-overlay-fixed" style="display: block; width: auto; height: auto;">...&lt;/div></message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;input type="checkbox" name="cgv" id="cgv" value="1"> is not clickable at point (72, 7). Other element would receive the click: &lt;div class="fancybox-overlay fancybox-overlay-fixed" style="display: block; width: auto; height: auto;">...&lt;/div>
+                  (Session info: chrome=89.0.4389.82)
+                    at Object.getErrorFromResponseBody (D:\playproject\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (D:\playproject\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.wrapCommandFn (D:\playproject\node_modules\@wdio\utils\build\shim.js:79:29)
+                    at Element.wrapCommandFn (D:\playproject\node_modules\@wdio\utils\build\shim.js:79:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\playproject\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (D:\playproject\node_modules\@wdio\utils\build\shim.js:79:29)
+                    at Element.wrapCommandFn (D:\playproject\node_modules\@wdio\utils\build\shim.js:79:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\playproject\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (D:\playproject\node_modules\@wdio\utils\build\shim.js:79:29)
+                    at ShoppingCartPage.proceedToCheckoutButton (D:\playproject\features\pageobjects\/shoppingcart.page.js:35:9)
+                    at World.&lt;anonymous> (D:\playproject\features\step-definitions\/stepsNew.js:61:5)
+                    at World.executeAsync (D:\playproject\node_modules\@wdio\utils\build\shim.js:137:16)
+                    at World.exports.testFrameworkFnWrapper (D:\playproject\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

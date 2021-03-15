@@ -1,10 +1,10 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import addtocartPage from '../pageobjects/addtocart.page';
 
 import HomePage from '../pageobjects/home.page';
 import MyAccountPage from '../pageobjects/myaccount.page'
 import PersonalInfoPage from '../pageobjects/personal.page'
 import AddToCartPage from '../pageobjects/addtocart.page'
+import ShoppingCartPage from '../pageobjects/shoppingcart.page'
 
 Given(/^I am on the home page$/, async () => {
     await browser.url('http://automationpractice.com/index.php')
@@ -53,10 +53,11 @@ Given(/^User is logged in and on home page$/, async () => {
 });
 
 When(/^User views the product and clicks on add to cart$/, async () => {
-    await AddToCartPage.clickProduct();
-    await expect(AddToCartPage.productDetails).toBeExisting();
+    await AddToCartPage.checkoutproduct();
+    await expect(ShoppingCartPage.shoppingCartSummary).toBeExisting();
 });
 
-Then(/^The user should be in payments page $/, async () => {
-    //await expect(AddToCartPage.productPage).toBeExisting();
+Then(/^The user should be able to complete the purchase$/, async () => {
+    await ShoppingCartPage.proceedToCheckoutButton();
+    await expect(ShoppingCartPage.orderSuccessMsg).toBeExisting();
 });
