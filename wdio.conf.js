@@ -128,13 +128,33 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    // reporters: ['spec'],
+    // reporters: [['allure', {
+    //     outputDir: 'allure-results',
+    //     disableWebdriverStepsReporting: false,
+    //     disableWebdriverScreenshotsReporting: false,
+    //     //useCucumberStepReporter: true,
+    // }]],
+    
     reporters: [['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
-        useCucumberStepReporter: true,
+                outputDir: 'allure-results',
+                disableWebdriverStepsReporting: true,
+                disableWebdriverScreenshotsReporting: false,
     }]],
+    
+    beforeSuite: function (suite) {
+    global.allure = allure;
+            allure.addFeature(suite.name);
+            allure.addDescription("generating Allure reports " + suite.name);
+        },
+        beforeTest: function (test, context) {
+            allure.addEnvironment("BROWSER", browser.capabilities.browserName);
+            allure.addEnvironment("BROWSER_VERSION", browser.capabilities.version);
+            allure.addEnvironment("PLATFORM", browser.capabilities.platform);
+            allure.addDescription("generating Allure reports" + test.title);
+            allure.addTestId("TC-001" + test.title);
+            allure.addLabel("label" + + today.toISOString().replace(/[^\w]/g, "") + ".png");
+        },
 
     //
     // If you are using Cucumber you need to specify the location of your step definitions.

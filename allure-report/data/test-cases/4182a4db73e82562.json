@@ -1,0 +1,74 @@
+{
+  "uid" : "4182a4db73e82562",
+  "name" : "Given User is logged in and on home page",
+  "fullName" : "The Automation Practice site E2E flow: To add a product to cart.Given User is logged in and on home page",
+  "historyId" : "7ef189550b317a4e2e6d4850463a46c1",
+  "time" : {
+    "start" : 1615961063712,
+    "stop" : 1615961065736,
+    "duration" : 2024
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69a649b266b927f3",
+      "name" : "Screenshot",
+      "source" : "69a649b266b927f3.png",
+      "type" : "image/png",
+      "size" : 192311
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow: To add a product to cart"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow: To add a product to cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given User is logged in and on home page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow: To add a product to cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4182a4db73e82562.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

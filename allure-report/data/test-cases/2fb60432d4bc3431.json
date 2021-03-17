@@ -1,0 +1,111 @@
+{
+  "uid" : "2fb60432d4bc3431",
+  "name" : "To register, the user has to provide his/her personal information",
+  "fullName" : "The Automation Practice site E2E flow.To register, the user has to provide his/her personal information",
+  "historyId" : "3ed7781bd4b6c9d1eebc3e298fab07f",
+  "time" : {
+    "start" : 1615790532865,
+    "stop" : 1615790538305,
+    "duration" : 5440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the personal information page",
+      "time" : {
+        "start" : 1615790532866,
+        "stop" : 1615790533216,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User enters the mandatory fields and click on Register button",
+      "time" : {
+        "start" : 1615790533216,
+        "stop" : 1615790537835,
+        "duration" : 4619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then The user should be registered and logged in successfully",
+      "time" : {
+        "start" : 1615790537835,
+        "stop" : 1615790538305,
+        "duration" : 470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testMethod",
+    "value" : "To register, the user has to provide his/her personal information"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fb60432d4bc3431.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

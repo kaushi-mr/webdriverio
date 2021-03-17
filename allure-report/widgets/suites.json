@@ -1,4 +1,59 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 5,
+  "items" : [ {
+    "uid" : "95de4658e275ca496202c103785b7625",
+    "name" : "The Automation Practice site E2E flow",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "76a774b6ff3bbfa6f5e2223931a09571",
+    "name" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "639ae535614959cd16e1a55feafcaaea",
+    "name" : "The Automation Practice site E2E flow: As a new user, I want to create a new account",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "2a08fa66b8d4833cb20c3129e44bc67f",
+    "name" : "The Automation Practice site E2E flow: To register, the user has to provide his/her personal information",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "d0b546ba23619968e65239725aaa193d",
+    "name" : "The Automation Practice site E2E flow: To add a product to cart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
 }

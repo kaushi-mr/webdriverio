@@ -1,0 +1,74 @@
+{
+  "uid" : "9c1cf6d301cba130",
+  "name" : "When I click on the sign in button",
+  "fullName" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application.When I click on the sign in button",
+  "historyId" : "48412d32f37cbbf3ddfb4b37abe29e74",
+  "time" : {
+    "start" : 1615961023140,
+    "stop" : 1615961036843,
+    "duration" : 13703
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b2ed58c06995efe",
+      "name" : "Screenshot",
+      "source" : "5b2ed58c06995efe.png",
+      "type" : "image/png",
+      "size" : 955196
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the sign in button"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c1cf6d301cba130.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

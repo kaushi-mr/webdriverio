@@ -1,5 +1,3311 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "When I click on the sign in button",
+      "uid" : "9c1cf6d301cba130",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961023140,
+        "stop" : 1615961036843,
+        "duration" : 13703
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "6bca148c5849313",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615812754577,
+        "stop" : 1615812770414,
+        "duration" : 15837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "3f732302398b13af",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615823872018,
+        "stop" : 1615823877553,
+        "duration" : 5535
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Given I am on the my account page",
+      "uid" : "213749c938f7ee4a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961037256,
+        "stop" : 1615961047597,
+        "duration" : 10341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "eac04051621fef04",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808754112,
+        "stop" : 1615808759294,
+        "duration" : 5182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "627e323ac1d605ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615824344807,
+        "stop" : 1615824386481,
+        "duration" : 41674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "78ce9b12cef18e0e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797846165,
+        "stop" : 1615797851446,
+        "duration" : 5281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "8ef0b7dc028fbbcf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615825364347,
+        "stop" : 1615825386366,
+        "duration" : 22019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "13839a3608de592f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830585512,
+        "stop" : 1615830638983,
+        "duration" : 53471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "307ff9c043ea2fce",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615811824288,
+        "stop" : 1615811827590,
+        "duration" : 3302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "df7ad0de5d317d23",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812012920,
+        "stop" : 1615812034252,
+        "duration" : 21332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "453755d2d36521ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812103026,
+        "stop" : 1615812124479,
+        "duration" : 21453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "e99816ca8a9cfb69",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796697076,
+        "stop" : 1615796701601,
+        "duration" : 4525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "4f64fa1b3a524ea9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806457054,
+        "stop" : 1615806461703,
+        "duration" : 4649
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "f69a3a5fe86f26a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796938440,
+        "stop" : 1615796941855,
+        "duration" : 3415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "645eec4b1ae18d2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830463539,
+        "stop" : 1615830468755,
+        "duration" : 5216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "b91bc85c8c0ada24",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798525400,
+        "stop" : 1615798530942,
+        "duration" : 5542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "944277bd8b114d0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615812039835,
+        "stop" : 1615812043909,
+        "duration" : 4074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "7445f61e8bf2a524",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811246578,
+        "stop" : 1615811267916,
+        "duration" : 21338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "426ba50b936e664d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830421798,
+        "stop" : 1615830442019,
+        "duration" : 20221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "da42d6c3b8c67e60",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615815023503,
+        "stop" : 1615815044744,
+        "duration" : 21241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "6aa485b76de814f6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812853503,
+        "stop" : 1615812878674,
+        "duration" : 25171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "3de7e95cbd622fc5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615824736789,
+        "stop" : 1615824758279,
+        "duration" : 21490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "65dd3f4e19ac5357",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808217765,
+        "stop" : 1615808238694,
+        "duration" : 20929
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "d1b73aa99691af57",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615808264745,
+        "stop" : 1615808322035,
+        "duration" : 57290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "4c7d283da5312bd5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830539307,
+        "stop" : 1615830559293,
+        "duration" : 19986
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "37e0e4ab2c99626f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811899984,
+        "stop" : 1615811921401,
+        "duration" : 21417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "f9cb136b4a378eeb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812124480,
+        "stop" : 1615812128932,
+        "duration" : 4452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "e9abbe2d9754188",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814717285,
+        "stop" : 1615814738633,
+        "duration" : 21348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "5a3c0dc3cee64acb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615812501604,
+        "stop" : 1615812510699,
+        "duration" : 9095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "83edad684c11d4e7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806710428,
+        "stop" : 1615806715366,
+        "duration" : 4938
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "5968a9ea78e6879f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812747907,
+        "stop" : 1615812754576,
+        "duration" : 6669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "307caa664579beee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615810928434,
+        "stop" : 1615810930892,
+        "duration" : 2458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "3ae8af39daa5927a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812705422,
+        "stop" : 1615812726575,
+        "duration" : 21153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "7075ff43a8bd6dc6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813967439,
+        "stop" : 1615813974125,
+        "duration" : 6686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "761dbdd00ae46dcb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615805417045,
+        "stop" : 1615805438608,
+        "duration" : 21563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "2e59531c2d9a0a72",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615805395993,
+        "stop" : 1615805417043,
+        "duration" : 21050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "8711de9ea8b5e564",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812453871,
+        "stop" : 1615812474814,
+        "duration" : 20943
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "2fb60432d4bc3431",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615790532865,
+        "stop" : 1615790538305,
+        "duration" : 5440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "441007c0aa64999",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811074984,
+        "stop" : 1615811096288,
+        "duration" : 21304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "9c60b2fa2d0010b4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810787805,
+        "stop" : 1615810792994,
+        "duration" : 5189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "2de42b00f27844b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615809270905,
+        "stop" : 1615809277317,
+        "duration" : 6412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "4b47ddb26e228da8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615830292855,
+        "stop" : 1615830340931,
+        "duration" : 48076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Given User is logged in and on home page",
+      "uid" : "4182a4db73e82562",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961063712,
+        "stop" : 1615961065736,
+        "duration" : 2024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "cd0ae2667d01a2da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811819397,
+        "stop" : 1615811824287,
+        "duration" : 4890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "74542f49c256b756",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797400497,
+        "stop" : 1615797406411,
+        "duration" : 5914
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then The user should be registered and logged in successfully",
+      "uid" : "548510f6f00d5f95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961063197,
+        "stop" : 1615961063703,
+        "duration" : 506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "6ba426f17df958fa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796932588,
+        "stop" : 1615796938439,
+        "duration" : 5851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "84ab983c8cd77cc8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810923904,
+        "stop" : 1615810928433,
+        "duration" : 4529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "c612bc02b89cfda3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808259981,
+        "stop" : 1615808264745,
+        "duration" : 4764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "f0937a88c3585776",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812080947,
+        "stop" : 1615812103024,
+        "duration" : 22077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "505fa55a3f15bafd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615811688362,
+        "stop" : 1615811691608,
+        "duration" : 3246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "6435ff64a2f554de",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615802766017,
+        "stop" : 1615802787457,
+        "duration" : 21440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "8cfafd6b8f651680",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615808649190,
+        "stop" : 1615808651611,
+        "duration" : 2421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "31986c84c4884f1b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798267643,
+        "stop" : 1615798289060,
+        "duration" : 21417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "47e999440014edd9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811921401,
+        "stop" : 1615811927018,
+        "duration" : 5617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "4e1acc0396d558b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813385582,
+        "stop" : 1615813406912,
+        "duration" : 21330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "e532381e5582f05b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615815468945,
+        "stop" : 1615815490209,
+        "duration" : 21264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "c18d0f258292197e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811054703,
+        "stop" : 1615811074983,
+        "duration" : 20280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "bdadc82c4649269e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615811100601,
+        "stop" : 1615811103533,
+        "duration" : 2932
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "4e7910ab8df98e1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798247399,
+        "stop" : 1615798267641,
+        "duration" : 20242
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then I should navigate to the My Accounts page",
+      "uid" : "220bd282147d2c5a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961036843,
+        "stop" : 1615961037238,
+        "duration" : 395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When User views the product and clicks on add to cart",
+      "uid" : "af9fc825786d904b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961065736,
+        "stop" : 1615961089156,
+        "duration" : 23420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "b8c8ff057f7a1841",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830442020,
+        "stop" : 1615830463538,
+        "duration" : 21518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "7b760e76433155d9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615825417151,
+        "stop" : 1615825460194,
+        "duration" : 43043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "2435bd9fec60dbec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808623432,
+        "stop" : 1615808644852,
+        "duration" : 21420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "81464eadc4a4e835",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798484374,
+        "stop" : 1615798504053,
+        "duration" : 19679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "f134defb4f778747",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797544805,
+        "stop" : 1615797549263,
+        "duration" : 4458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "7855af6a96f319b3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615793990165,
+        "stop" : 1615794021027,
+        "duration" : 30862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "cd797a9ed0a2e2fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797803115,
+        "stop" : 1615797824635,
+        "duration" : 21520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "7c30df217eec0b3c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814883745,
+        "stop" : 1615814889534,
+        "duration" : 5789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "920f05ae8ca9042",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812578472,
+        "stop" : 1615812599820,
+        "duration" : 21348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "e9c07c914ac2f9b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615809041588,
+        "stop" : 1615809062213,
+        "duration" : 20625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "ff434a28c4490304",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797519364,
+        "stop" : 1615797540710,
+        "duration" : 21346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "e75028ee8dbb9242",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808603657,
+        "stop" : 1615808623430,
+        "duration" : 19773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "c390fc4ecd7dddb4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961063711,
+        "stop" : 1615961063712,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "658a62e117161165",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814841913,
+        "stop" : 1615814862495,
+        "duration" : 20582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "1c74843caf52dbd3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811227055,
+        "stop" : 1615811246577,
+        "duration" : 19522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "fe5b85ea9b919b47",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813630113,
+        "stop" : 1615813650454,
+        "duration" : 20341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "50ba0b2e105a8999",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615806572227,
+        "stop" : 1615806611507,
+        "duration" : 39280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "2d2f7eaeac14f894",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813671715,
+        "stop" : 1615813677241,
+        "duration" : 5526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "c00d5e78cd37dd5f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615811927019,
+        "stop" : 1615811931147,
+        "duration" : 4128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "9e7039cc88fd40ee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615823850690,
+        "stop" : 1615823872018,
+        "duration" : 21328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "66c856212147b3b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796911249,
+        "stop" : 1615796932587,
+        "duration" : 21338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "45cc0493f10f066a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812726576,
+        "stop" : 1615812747906,
+        "duration" : 21330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "1718af72e41d9917",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615809083511,
+        "stop" : 1615809088440,
+        "duration" : 4929
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "990cb0e60c5975da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808238695,
+        "stop" : 1615808259980,
+        "duration" : 21285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "fa69c0db02976a86",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797824636,
+        "stop" : 1615797846164,
+        "duration" : 21528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "d26d729c43df9f7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808472980,
+        "stop" : 1615808479398,
+        "duration" : 6418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "10fd7c308ef0f2cf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810882487,
+        "stop" : 1615810902570,
+        "duration" : 20083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "2855b4bdd7fa93e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615794042318,
+        "stop" : 1615794046229,
+        "duration" : 3911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "f2fe1381b64b3495",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810745119,
+        "stop" : 1615810766432,
+        "duration" : 21313
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "a55bce663a09d34b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797499879,
+        "stop" : 1615797519363,
+        "duration" : 19484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "3c21e07ee3a83629",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806150888,
+        "stop" : 1615806155848,
+        "duration" : 4960
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "73b85b5193502a5a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615804689809,
+        "stop" : 1615804694074,
+        "duration" : 4265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "2f5325c34412acff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812556281,
+        "stop" : 1615812578471,
+        "duration" : 22190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "15b51916ca95bdf3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615810792995,
+        "stop" : 1615810796518,
+        "duration" : 3523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "e2ca09f1964855c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813184225,
+        "stop" : 1615813211267,
+        "duration" : 27042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "618ae7c34ca37416",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615790491798,
+        "stop" : 1615790511515,
+        "duration" : 19717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "6c674f0a3795480",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830468755,
+        "stop" : 1615830520586,
+        "duration" : 51831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "9ccf96897f92bf4d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813946177,
+        "stop" : 1615813967438,
+        "duration" : 21261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "f06839d6965348f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615823877554,
+        "stop" : 1615823922732,
+        "duration" : 45178
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "d7f42cb5c029cc09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615809277318,
+        "stop" : 1615809280041,
+        "duration" : 2723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "fc463040f7deed88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811370647,
+        "stop" : 1615811391975,
+        "duration" : 21328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "19f154d0fec401bd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961058739,
+        "stop" : 1615961058740,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "df8085c684648109",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615804668485,
+        "stop" : 1615804689809,
+        "duration" : 21324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "9641dc0ea77e6a54",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615825386368,
+        "stop" : 1615825408102,
+        "duration" : 21734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "cf70523435c95d4e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796701602,
+        "stop" : 1615796705514,
+        "duration" : 3912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "b1ccccad13031737",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615813974126,
+        "stop" : 1615814019992,
+        "duration" : 45866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "5542a05a6049fcca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830265926,
+        "stop" : 1615830287457,
+        "duration" : 21531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "d738b86e02636822",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808451610,
+        "stop" : 1615808472979,
+        "duration" : 21369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "b0ad31c9dfd9f555",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615806155848,
+        "stop" : 1615806159762,
+        "duration" : 3914
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "a3ba3c84a9ff26d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806409708,
+        "stop" : 1615806435740,
+        "duration" : 26032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "358e6e7ffd6e7ae5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615802787459,
+        "stop" : 1615802808992,
+        "duration" : 21533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "aa8e259a46ef8e3b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961058751,
+        "stop" : 1615961058752,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "c611b2a9d5918fa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797406411,
+        "stop" : 1615797410504,
+        "duration" : 4093
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "f45731e31b4b07be",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797540711,
+        "stop" : 1615797544805,
+        "duration" : 4094
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "446cec9c00e3920c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797379170,
+        "stop" : 1615797400496,
+        "duration" : 21326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "f8ddcd40d7f8046a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615802500757,
+        "stop" : 1615802507951,
+        "duration" : 7194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "73eba303df15a059",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812599821,
+        "stop" : 1615812605146,
+        "duration" : 5325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "76bdf0bcd155ceb5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808431155,
+        "stop" : 1615808451608,
+        "duration" : 20453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "4314e2d578f80c1f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806689158,
+        "stop" : 1615806710427,
+        "duration" : 21269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "8f334f8e5a1fd98c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615793662979,
+        "stop" : 1615793682957,
+        "duration" : 19978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "3fa47dc338d5d8ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615798530943,
+        "stop" : 1615798545494,
+        "duration" : 14551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "b5eda100c32de06b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615824767332,
+        "stop" : 1615824808621,
+        "duration" : 41289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "303dd6b65db20f55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813925943,
+        "stop" : 1615813946176,
+        "duration" : 20233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "b690e9d2bd5a62fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615803315577,
+        "stop" : 1615803335991,
+        "duration" : 20414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "fe6d23f3df2c5e2d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615824297737,
+        "stop" : 1615824317840,
+        "duration" : 20103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "36a94edd96690172",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813406912,
+        "stop" : 1615813411114,
+        "duration" : 4202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "db45c77edb2a4942",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615824716996,
+        "stop" : 1615824736788,
+        "duration" : 19792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "eea99da1de22d233",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615815001966,
+        "stop" : 1615815023502,
+        "duration" : 21536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "b8607cb967efb62c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811391976,
+        "stop" : 1615811397434,
+        "duration" : 5458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "12ea6029c427ff7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808644853,
+        "stop" : 1615808649189,
+        "duration" : 4336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "c44375fb663c7bed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615815049611,
+        "stop" : 1615815107930,
+        "duration" : 58319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "c441022899720749",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808713377,
+        "stop" : 1615808732775,
+        "duration" : 19398
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "6168ec90d9dab6fb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615811397435,
+        "stop" : 1615811403137,
+        "duration" : 5702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "fd065a09550e0057",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615814889534,
+        "stop" : 1615814935824,
+        "duration" : 46290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "86b02d1bc970a125",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810902571,
+        "stop" : 1615810923904,
+        "duration" : 21333
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "f59d7e178dca64c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615790511516,
+        "stop" : 1615790532864,
+        "duration" : 21348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "f73008855f624a36",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798164768,
+        "stop" : 1615798169965,
+        "duration" : 5197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "34561be46abc5d01",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615805444269,
+        "stop" : 1615805450920,
+        "duration" : 6651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When User enters the mandatory fields and click on Register button",
+      "uid" : "b71bdb37b4dc2829",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961059107,
+        "stop" : 1615961063197,
+        "duration" : 4090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "b52aff09d5b63e3f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615806715366,
+        "stop" : 1615806766696,
+        "duration" : 51330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "8388d345dfc6a4bb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615808107102,
+        "stop" : 1615808159386,
+        "duration" : 52284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "28499614344a9a4a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811267917,
+        "stop" : 1615811274305,
+        "duration" : 6388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "a30ac7ed7541503",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615829920002,
+        "stop" : 1615829940695,
+        "duration" : 20693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "488713fca9712f7e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615802479341,
+        "stop" : 1615802500756,
+        "duration" : 21415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "20821872760e7f9b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798504054,
+        "stop" : 1615798525399,
+        "duration" : 21345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "dcd104d814b5cc6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615829940696,
+        "stop" : 1615829962242,
+        "duration" : 21546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "7be1a300208d7429",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796519752,
+        "stop" : 1615796523787,
+        "duration" : 4035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "b59f9d0d8c496d16",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615809249591,
+        "stop" : 1615809270904,
+        "duration" : 21313
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "e98d4816ee874fa0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813365860,
+        "stop" : 1615813385581,
+        "duration" : 19721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "bb66ccc88d5f62d2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830559294,
+        "stop" : 1615830580668,
+        "duration" : 21374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "a7960fd4ec46b39a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796656258,
+        "stop" : 1615796675723,
+        "duration" : 19465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "7fb34d2f21d170d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615809088440,
+        "stop" : 1615809091828,
+        "duration" : 3388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "ec6992a3d7ab0a6d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813677242,
+        "stop" : 1615813705720,
+        "duration" : 28478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "6f73c843016b2b04",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811876892,
+        "stop" : 1615811899983,
+        "duration" : 23091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "50ff36bca51386d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615803357379,
+        "stop" : 1615803362010,
+        "duration" : 4631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "9916e21992b09017",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615798169965,
+        "stop" : 1615798173934,
+        "duration" : 3969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "e6532ace12ec689e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808057285,
+        "stop" : 1615808078519,
+        "duration" : 21234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "d32c4f7dbc646ca8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961016723,
+        "stop" : 1615961016726,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "b410462aca618b80",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796498434,
+        "stop" : 1615796519751,
+        "duration" : 21317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "b2092f79f20ec25a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798143448,
+        "stop" : 1615798164768,
+        "duration" : 21320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "7c55f8349bba9d29",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615829968284,
+        "stop" : 1615830028430,
+        "duration" : 60146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "d08f8f3ef03ee103",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961116102,
+        "stop" : 1615961116102,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "3f8508193138d44f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812900111,
+        "stop" : 1615812904609,
+        "duration" : 4498
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "eb6dce32734dca0b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615809229040,
+        "stop" : 1615809249589,
+        "duration" : 20549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "7a385db1514c1071",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615804694076,
+        "stop" : 1615804698730,
+        "duration" : 4654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Given I am on the personal information page",
+      "uid" : "e7379ca76b0bc4be",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961058752,
+        "stop" : 1615961059107,
+        "duration" : 355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "97d30bbb090ac78b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808078520,
+        "stop" : 1615808099923,
+        "duration" : 21403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "78e78c58cabb6f77",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615815496022,
+        "stop" : 1615815546241,
+        "duration" : 50219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "9b7078fa7f61a4fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811683033,
+        "stop" : 1615811688361,
+        "duration" : 5328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "c4d86142505b7e3d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615825408104,
+        "stop" : 1615825417150,
+        "duration" : 9046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "2cb94a8ef2de08e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811640822,
+        "stop" : 1615811661717,
+        "duration" : 20895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "946aa8802d226e78",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830287458,
+        "stop" : 1615830292854,
+        "duration" : 5396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "975996cfa26c2d07",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615790086537,
+        "stop" : 1615790107931,
+        "duration" : 21394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "371ed6b5eab2b525",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814862495,
+        "stop" : 1615814883745,
+        "duration" : 21250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "9cee277b06747847",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961037256,
+        "stop" : 1615961037256,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "ac8899dd90223053",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796477697,
+        "stop" : 1615796498433,
+        "duration" : 20736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "1dc7033a8924c097",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806545065,
+        "stop" : 1615806566360,
+        "duration" : 21295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "64737d0542d6ed95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615803362011,
+        "stop" : 1615803366105,
+        "duration" : 4094
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "56d4c6d1578388d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806129606,
+        "stop" : 1615806150888,
+        "duration" : 21282
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "6df1426ec9e06a0b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798289061,
+        "stop" : 1615798294493,
+        "duration" : 5432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "99bd0f0b3c2e595f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813136964,
+        "stop" : 1615813156299,
+        "duration" : 19335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "4c18f8f316b7dec3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615814744382,
+        "stop" : 1615814789932,
+        "duration" : 45550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "75d3a55d56bd29d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615824758281,
+        "stop" : 1615824767331,
+        "duration" : 9050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "99370a32818f05e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615829962243,
+        "stop" : 1615829968283,
+        "duration" : 6040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "564f254c7aaf8d96",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615802808992,
+        "stop" : 1615802813881,
+        "duration" : 4889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "7082c697c636f005",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814695092,
+        "stop" : 1615814717284,
+        "duration" : 22192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "df12eaf5691a8a0e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806435741,
+        "stop" : 1615806457053,
+        "duration" : 21312
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "2e1a40d18583f233",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796523788,
+        "stop" : 1615796527134,
+        "duration" : 3346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "9269fb3582117ea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615806461703,
+        "stop" : 1615806465286,
+        "duration" : 3583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "55622b674abd6d38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806521663,
+        "stop" : 1615806545064,
+        "duration" : 23401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "538007d5262b8014",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615797357640,
+        "stop" : 1615797379169,
+        "duration" : 21529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "ea488ec4448eeae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615804648766,
+        "stop" : 1615804668484,
+        "duration" : 19718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "8beacbd197c56a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796675724,
+        "stop" : 1615796697075,
+        "duration" : 21351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "5fdef020857b727a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813411115,
+        "stop" : 1615813436683,
+        "duration" : 25568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "baa06eec629e0de3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812496089,
+        "stop" : 1615812501603,
+        "duration" : 5514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "1a533a086d47505c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1615812904610,
+        "stop" : 1615812940094,
+        "duration" : 35484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "b11f4ddef4196d5c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615790107932,
+        "stop" : 1615790112450,
+        "duration" : 4518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "a49d9acb4202906d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615824339269,
+        "stop" : 1615824344807,
+        "duration" : 5538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "e7636062f31144d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813650455,
+        "stop" : 1615813671714,
+        "duration" : 21259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "e007268e02a64356",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615808479399,
+        "stop" : 1615808531980,
+        "duration" : 52581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "469ceee3963b402",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615824317841,
+        "stop" : 1615824339267,
+        "duration" : 21426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "fe651e48c01c743b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615805438609,
+        "stop" : 1615805444269,
+        "duration" : 5660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "261a39824f50d395",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810766434,
+        "stop" : 1615810787805,
+        "duration" : 21371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "f2d25c8ff0bd622a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615794046230,
+        "stop" : 1615794049446,
+        "duration" : 3216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then I should navigate to the personal information page",
+      "uid" : "5f435ea69aad911a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961058373,
+        "stop" : 1615961058739,
+        "duration" : 366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then The user should be able to complete the purchase",
+      "uid" : "e0fe51242c7d0fed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961089156,
+        "stop" : 1615961116101,
+        "duration" : 26945
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "dd7e503c0c0ba333",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806566361,
+        "stop" : 1615806572226,
+        "duration" : 5865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "a67f021510b05a1d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806668400,
+        "stop" : 1615806689157,
+        "duration" : 20757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "7e9eb30155301061",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615793682958,
+        "stop" : 1615793704299,
+        "duration" : 21341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "9aa18c9a7ce6f690",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811992011,
+        "stop" : 1615812012919,
+        "duration" : 20908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "c6afc548fd1a72b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615802455613,
+        "stop" : 1615802479340,
+        "duration" : 23727
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "f1a06925623c52d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615790066134,
+        "stop" : 1615790086536,
+        "duration" : 20402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "f65c7b8fb06e9acb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813156300,
+        "stop" : 1615813177626,
+        "duration" : 21326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "1add5497f3203927",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811798121,
+        "stop" : 1615811819396,
+        "duration" : 21275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "59d0989469f2a2e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615797851446,
+        "stop" : 1615797865717,
+        "duration" : 14271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "84b9582eca1dda99",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811661718,
+        "stop" : 1615811683032,
+        "duration" : 21314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "8f72e611f960b8bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615815443171,
+        "stop" : 1615815468944,
+        "duration" : 25773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "2bbfcba5c43e15bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615812128933,
+        "stop" : 1615812134518,
+        "duration" : 5585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "9bd2c932fda97165",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615806109695,
+        "stop" : 1615806129605,
+        "duration" : 19910
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "d5f17c0df318fef5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615815044745,
+        "stop" : 1615815049611,
+        "duration" : 4866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "7ea0b3e5fe5d2ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615803335992,
+        "stop" : 1615803357378,
+        "duration" : 21386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "216b5fa3e8f896b7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615798294494,
+        "stop" : 1615798308331,
+        "duration" : 13837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "bf2feac878db1e47",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812878676,
+        "stop" : 1615812900109,
+        "duration" : 21433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "c6da5670d4d43047",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615798123629,
+        "stop" : 1615798143447,
+        "duration" : 19818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "562ef09b226a6e4b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812474815,
+        "stop" : 1615812496088,
+        "duration" : 21273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "74e84175b4412ea0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615811274305,
+        "stop" : 1615811276473,
+        "duration" : 2168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "d5ba2daa4540989e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811778208,
+        "stop" : 1615811798120,
+        "duration" : 19912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "161c875ce92a2dcf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961037238,
+        "stop" : 1615961037239,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "efe6c34a760d2ba8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615802507951,
+        "stop" : 1615802522651,
+        "duration" : 14700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "77445e548ffc458",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615809062214,
+        "stop" : 1615809083510,
+        "duration" : 21296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When I enter the emailID and click on the Create an Account button",
+      "uid" : "3f63b0caa7d0402e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961047598,
+        "stop" : 1615961058373,
+        "duration" : 10775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "ed085dc5f5af437",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814738633,
+        "stop" : 1615814744380,
+        "duration" : 5747
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "667e3fa10afb8706",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811348283,
+        "stop" : 1615811370646,
+        "duration" : 22363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "7df72412ec76afd8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615813177627,
+        "stop" : 1615813184225,
+        "duration" : 6598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Given I am on the home page",
+      "uid" : "f649a235aa2f990",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961016726,
+        "stop" : 1615961023140,
+        "duration" : 6414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "d2f736cc059f3939",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615793708384,
+        "stop" : 1615793712566,
+        "duration" : 4182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "7b0c84828ded56e5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615815490210,
+        "stop" : 1615815496021,
+        "duration" : 5811
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "33b4e958f17bfce8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615811096289,
+        "stop" : 1615811100601,
+        "duration" : 4312
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "40b231ea96859d94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615802813881,
+        "stop" : 1615802817870,
+        "duration" : 3989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "ae368000a0a104da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615812034253,
+        "stop" : 1615812039834,
+        "duration" : 5581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "24a55f04323102d0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615794021028,
+        "stop" : 1615794042318,
+        "duration" : 21290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "5dc3df8b6ac91ee8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830244218,
+        "stop" : 1615830265925,
+        "duration" : 21707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "f73ee06aa6d0953",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615812605146,
+        "stop" : 1615812613785,
+        "duration" : 8639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "625c100f1deefd47",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615808759294,
+        "stop" : 1615808762560,
+        "duration" : 3266
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "6125f7407b795081",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808732776,
+        "stop" : 1615808754112,
+        "duration" : 21336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "cf13cf65a30bfb82",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615808099924,
+        "stop" : 1615808107102,
+        "duration" : 7178
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "fb3539f4c788c49b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961063703,
+        "stop" : 1615961063704,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "5c696da68b8aa79e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615796891496,
+        "stop" : 1615796911247,
+        "duration" : 19751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "97869025eb66d361",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615823829388,
+        "stop" : 1615823850689,
+        "duration" : 21301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "316c53de20763011",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615793704300,
+        "stop" : 1615793708383,
+        "duration" : 4083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "4fb38cfeb1dd88d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830580669,
+        "stop" : 1615830585511,
+        "duration" : 4842
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
 }

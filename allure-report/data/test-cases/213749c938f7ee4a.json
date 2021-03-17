@@ -1,0 +1,74 @@
+{
+  "uid" : "213749c938f7ee4a",
+  "name" : "Given I am on the my account page",
+  "fullName" : "The Automation Practice site E2E flow: As a new user, I want to create a new account.Given I am on the my account page",
+  "historyId" : "ba253c55673576cff836390aa40b0e99",
+  "time" : {
+    "start" : 1615961037256,
+    "stop" : 1615961047597,
+    "duration" : 10341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c006cd6c098526fb",
+      "name" : "Screenshot",
+      "source" : "c006cd6c098526fb.png",
+      "type" : "image/png",
+      "size" : 180099
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the my account page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "213749c938f7ee4a.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

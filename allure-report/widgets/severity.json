@@ -1,1 +1,201 @@
-[ ]
+[ {
+  "uid" : "213749c938f7ee4a",
+  "name" : "Given I am on the my account page",
+  "time" : {
+    "start" : 1615961037256,
+    "stop" : 1615961047597,
+    "duration" : 10341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f63b0caa7d0402e",
+  "name" : "When I enter the emailID and click on the Create an Account button",
+  "time" : {
+    "start" : 1615961047598,
+    "stop" : 1615961058373,
+    "duration" : 10775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb3539f4c788c49b",
+  "name" : "",
+  "time" : {
+    "start" : 1615961063703,
+    "stop" : 1615961063704,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fb38cfeb1dd88d",
+  "name" : "To register, the user has to provide his/her personal information",
+  "time" : {
+    "start" : 1615830580669,
+    "stop" : 1615830585511,
+    "duration" : 4842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d08f8f3ef03ee103",
+  "name" : "",
+  "time" : {
+    "start" : 1615961116102,
+    "stop" : 1615961116102,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c7d283da5312bd5",
+  "name" : "As a new user, I want to signin to the application",
+  "time" : {
+    "start" : 1615830539307,
+    "stop" : 1615830559293,
+    "duration" : 19986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13839a3608de592f",
+  "name" : "To add a product to cart",
+  "time" : {
+    "start" : 1615830585512,
+    "stop" : 1615830638983,
+    "duration" : 53471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "220bd282147d2c5a",
+  "name" : "Then I should navigate to the My Accounts page",
+  "time" : {
+    "start" : 1615961036843,
+    "stop" : 1615961037238,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b71bdb37b4dc2829",
+  "name" : "When User enters the mandatory fields and click on Register button",
+  "time" : {
+    "start" : 1615961059107,
+    "stop" : 1615961063197,
+    "duration" : 4090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb66ccc88d5f62d2",
+  "name" : "As a new user, I want to create a new account",
+  "time" : {
+    "start" : 1615830559294,
+    "stop" : 1615830580668,
+    "duration" : 21374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f435ea69aad911a",
+  "name" : "Then I should navigate to the personal information page",
+  "time" : {
+    "start" : 1615961058373,
+    "stop" : 1615961058739,
+    "duration" : 366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19f154d0fec401bd",
+  "name" : "",
+  "time" : {
+    "start" : 1615961058739,
+    "stop" : 1615961058740,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f649a235aa2f990",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1615961016726,
+    "stop" : 1615961023140,
+    "duration" : 6414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7379ca76b0bc4be",
+  "name" : "Given I am on the personal information page",
+  "time" : {
+    "start" : 1615961058752,
+    "stop" : 1615961059107,
+    "duration" : 355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c1cf6d301cba130",
+  "name" : "When I click on the sign in button",
+  "time" : {
+    "start" : 1615961023140,
+    "stop" : 1615961036843,
+    "duration" : 13703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "548510f6f00d5f95",
+  "name" : "Then The user should be registered and logged in successfully",
+  "time" : {
+    "start" : 1615961063197,
+    "stop" : 1615961063703,
+    "duration" : 506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4182a4db73e82562",
+  "name" : "Given User is logged in and on home page",
+  "time" : {
+    "start" : 1615961063712,
+    "stop" : 1615961065736,
+    "duration" : 2024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0fe51242c7d0fed",
+  "name" : "Then The user should be able to complete the purchase",
+  "time" : {
+    "start" : 1615961089156,
+    "stop" : 1615961116101,
+    "duration" : 26945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af9fc825786d904b",
+  "name" : "When User views the product and clicks on add to cart",
+  "time" : {
+    "start" : 1615961065736,
+    "stop" : 1615961089156,
+    "duration" : 23420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "161c875ce92a2dcf",
+  "name" : "",
+  "time" : {
+    "start" : 1615961037238,
+    "stop" : 1615961037239,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

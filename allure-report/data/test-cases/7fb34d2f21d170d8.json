@@ -1,0 +1,117 @@
+{
+  "uid" : "7fb34d2f21d170d8",
+  "name" : "To add a product to cart",
+  "fullName" : "The Automation Practice site E2E flow.To add a product to cart",
+  "historyId" : "992fc253f0f7bdafc8416248b138321f",
+  "time" : {
+    "start" : 1615809088440,
+    "stop" : 1615809091828,
+    "duration" : 3388
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"The user should be in payments page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"The user should be in payments page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(D:\\playproject\\features\\signin.feature):1:1\n                \tat Scenario(To add a product to cart):21:3\n                \tat Step(The user should be in payments page):25:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Step \"The user should be in payments page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "statusTrace" : "Step \"The user should be in payments page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(D:\\playproject\\features\\signin.feature):1:1\n                \tat Scenario(To add a product to cart):21:3\n                \tat Step(The user should be in payments page):25:5\n                ",
+    "steps" : [ {
+      "name" : "Given User is logged in and on home page",
+      "time" : {
+        "start" : 1615809088441,
+        "stop" : 1615809091819,
+        "duration" : 3378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User views the product and clicks on add to cart",
+      "time" : {
+        "start" : 1615809091820,
+        "stop" : 1615809091826,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"The user should be in payments page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(D:\\playproject\\features\\signin.feature):1:1\n                \tat Scenario(To add a product to cart):21:3\n                \tat Step(The user should be in payments page):25:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then The user should be in payments page",
+      "time" : {
+        "start" : 1615809091826,
+        "stop" : 1615809091828,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"The user should be in payments page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(D:\\playproject\\features\\signin.feature):1:1\n                \tat Scenario(To add a product to cart):21:3\n                \tat Step(The user should be in payments page):25:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testMethod",
+    "value" : "To add a product to cart"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fb34d2f21d170d8.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

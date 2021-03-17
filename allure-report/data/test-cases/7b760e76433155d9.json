@@ -1,0 +1,116 @@
+{
+  "uid" : "7b760e76433155d9",
+  "name" : "To add a product to cart",
+  "fullName" : "The Automation Practice site E2E flow.To add a product to cart",
+  "historyId" : "992fc253f0f7bdafc8416248b138321f",
+  "time" : {
+    "start" : 1615825417151,
+    "stop" : 1615825460194,
+    "duration" : 43043
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "ReferenceError: by is not defined",
+  "statusTrace" : "ReferenceError: by is not defined\n                    at ShoppingCartPage.proceedToCheckoutButton (D:\\playproject\\features\\pageobjects\\/shoppingcart.page.js:37:30)\n                    at World.<anonymous> (D:\\playproject\\features\\step-definitions\\/stepsNew.js:61:5)\n                    at World.executeAsync (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:137:16)\n                    at World.exports.testFrameworkFnWrapper (D:\\playproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "ReferenceError: by is not defined",
+    "statusTrace" : "ReferenceError: by is not defined\n                    at ShoppingCartPage.proceedToCheckoutButton (D:\\playproject\\features\\pageobjects\\/shoppingcart.page.js:37:30)\n                    at World.<anonymous> (D:\\playproject\\features\\step-definitions\\/stepsNew.js:61:5)\n                    at World.executeAsync (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:137:16)\n                    at World.exports.testFrameworkFnWrapper (D:\\playproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:18)",
+    "steps" : [ {
+      "name" : "Given User is logged in and on home page",
+      "time" : {
+        "start" : 1615825417152,
+        "stop" : 1615825423391,
+        "duration" : 6239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User views the product and clicks on add to cart",
+      "time" : {
+        "start" : 1615825423391,
+        "stop" : 1615825446298,
+        "duration" : 22907
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then The user should be able to complete the purchase",
+      "time" : {
+        "start" : 1615825446298,
+        "stop" : 1615825460194,
+        "duration" : 13896
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: by is not defined\n                    at ShoppingCartPage.proceedToCheckoutButton (D:\\playproject\\features\\pageobjects\\/shoppingcart.page.js:37:30)\n                    at World.<anonymous> (D:\\playproject\\features\\step-definitions\\/stepsNew.js:61:5)\n                    at World.executeAsync (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:137:16)\n                    at World.exports.testFrameworkFnWrapper (D:\\playproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:18)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testMethod",
+    "value" : "To add a product to cart"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b760e76433155d9.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

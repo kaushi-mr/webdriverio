@@ -1,0 +1,111 @@
+{
+  "uid" : "56d4c6d1578388d8",
+  "name" : "As a new user, I want to create a new account",
+  "fullName" : "The Automation Practice site E2E flow.As a new user, I want to create a new account",
+  "historyId" : "6cdc3ba4ba7f9dc4eb8404241a56acdd",
+  "time" : {
+    "start" : 1615806129606,
+    "stop" : 1615806150888,
+    "duration" : 21282
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the my account page",
+      "time" : {
+        "start" : 1615806129607,
+        "stop" : 1615806139940,
+        "duration" : 10333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I enter the emailID and click on the Create an Account button",
+      "time" : {
+        "start" : 1615806139940,
+        "stop" : 1615806150548,
+        "duration" : 10608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should navigate to the personal information page",
+      "time" : {
+        "start" : 1615806150549,
+        "stop" : 1615806150887,
+        "duration" : 338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a new user, I want to create a new account"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56d4c6d1578388d8.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

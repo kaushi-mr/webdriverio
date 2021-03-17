@@ -1,0 +1,74 @@
+{
+  "uid" : "e7379ca76b0bc4be",
+  "name" : "Given I am on the personal information page",
+  "fullName" : "The Automation Practice site E2E flow: To register, the user has to provide his/her personal information.Given I am on the personal information page",
+  "historyId" : "bd4aba1b778ca63226a81dbcb762c309",
+  "time" : {
+    "start" : 1615961058752,
+    "stop" : 1615961059107,
+    "duration" : 355
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74b0910b794507e7",
+      "name" : "Screenshot",
+      "source" : "74b0910b794507e7.png",
+      "type" : "image/png",
+      "size" : 43267
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow: To register, the user has to provide his/her personal information"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow: To register, the user has to provide his/her personal information"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the personal information page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow: To register, the user has to provide his/her personal information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7379ca76b0bc4be.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

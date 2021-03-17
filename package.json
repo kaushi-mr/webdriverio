@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "open-allure": "./node_modules/.bin/allure generate ./allure-report --clean && allure open",
-    "auto": "npx wdio run ./wdio.conf.js"
+    "allure-reports": "node_modules/.bin/allure generate ./allure-results/  -o ./allure-report/ --clean && allure open ./allure-report",
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "report-history": "mkdir -p ./allure-report/history ./allure-results/history && cp -a ./allure-report/history ./allure-results/"
   },
   "author": "Kaushik",
   "license": "ISC",

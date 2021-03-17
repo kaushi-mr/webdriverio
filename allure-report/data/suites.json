@@ -1,5 +1,285 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "The Automation Practice site E2E flow",
+    "children" : [ {
+      "name" : "As a new user, I want to signin to the application",
+      "uid" : "4c7d283da5312bd5",
+      "parentUid" : "95de4658e275ca496202c103785b7625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830539307,
+        "stop" : 1615830559293,
+        "duration" : 19986
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "As a new user, I want to create a new account",
+      "uid" : "bb66ccc88d5f62d2",
+      "parentUid" : "95de4658e275ca496202c103785b7625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830559294,
+        "stop" : 1615830580668,
+        "duration" : 21374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To register, the user has to provide his/her personal information",
+      "uid" : "4fb38cfeb1dd88d",
+      "parentUid" : "95de4658e275ca496202c103785b7625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830580669,
+        "stop" : 1615830585511,
+        "duration" : 4842
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "To add a product to cart",
+      "uid" : "13839a3608de592f",
+      "parentUid" : "95de4658e275ca496202c103785b7625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615830585512,
+        "stop" : 1615830638983,
+        "duration" : 53471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "95de4658e275ca496202c103785b7625"
+  }, {
+    "name" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application",
+    "children" : [ {
+      "name" : "Given I am on the home page",
+      "uid" : "f649a235aa2f990",
+      "parentUid" : "76a774b6ff3bbfa6f5e2223931a09571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961016726,
+        "stop" : 1615961023140,
+        "duration" : 6414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When I click on the sign in button",
+      "uid" : "9c1cf6d301cba130",
+      "parentUid" : "76a774b6ff3bbfa6f5e2223931a09571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961023140,
+        "stop" : 1615961036843,
+        "duration" : 13703
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then I should navigate to the My Accounts page",
+      "uid" : "220bd282147d2c5a",
+      "parentUid" : "76a774b6ff3bbfa6f5e2223931a09571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961036843,
+        "stop" : 1615961037238,
+        "duration" : 395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "161c875ce92a2dcf",
+      "parentUid" : "76a774b6ff3bbfa6f5e2223931a09571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961037238,
+        "stop" : 1615961037239,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "76a774b6ff3bbfa6f5e2223931a09571"
+  }, {
+    "name" : "The Automation Practice site E2E flow: As a new user, I want to create a new account",
+    "children" : [ {
+      "name" : "Given I am on the my account page",
+      "uid" : "213749c938f7ee4a",
+      "parentUid" : "639ae535614959cd16e1a55feafcaaea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961037256,
+        "stop" : 1615961047597,
+        "duration" : 10341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When I enter the emailID and click on the Create an Account button",
+      "uid" : "3f63b0caa7d0402e",
+      "parentUid" : "639ae535614959cd16e1a55feafcaaea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961047598,
+        "stop" : 1615961058373,
+        "duration" : 10775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then I should navigate to the personal information page",
+      "uid" : "5f435ea69aad911a",
+      "parentUid" : "639ae535614959cd16e1a55feafcaaea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961058373,
+        "stop" : 1615961058739,
+        "duration" : 366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "19f154d0fec401bd",
+      "parentUid" : "639ae535614959cd16e1a55feafcaaea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961058739,
+        "stop" : 1615961058740,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "639ae535614959cd16e1a55feafcaaea"
+  }, {
+    "name" : "The Automation Practice site E2E flow: To register, the user has to provide his/her personal information",
+    "children" : [ {
+      "name" : "Given I am on the personal information page",
+      "uid" : "e7379ca76b0bc4be",
+      "parentUid" : "2a08fa66b8d4833cb20c3129e44bc67f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961058752,
+        "stop" : 1615961059107,
+        "duration" : 355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When User enters the mandatory fields and click on Register button",
+      "uid" : "b71bdb37b4dc2829",
+      "parentUid" : "2a08fa66b8d4833cb20c3129e44bc67f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961059107,
+        "stop" : 1615961063197,
+        "duration" : 4090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then The user should be registered and logged in successfully",
+      "uid" : "548510f6f00d5f95",
+      "parentUid" : "2a08fa66b8d4833cb20c3129e44bc67f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961063197,
+        "stop" : 1615961063703,
+        "duration" : 506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "fb3539f4c788c49b",
+      "parentUid" : "2a08fa66b8d4833cb20c3129e44bc67f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961063703,
+        "stop" : 1615961063704,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "2a08fa66b8d4833cb20c3129e44bc67f"
+  }, {
+    "name" : "The Automation Practice site E2E flow: To add a product to cart",
+    "children" : [ {
+      "name" : "Given User is logged in and on home page",
+      "uid" : "4182a4db73e82562",
+      "parentUid" : "d0b546ba23619968e65239725aaa193d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961063712,
+        "stop" : 1615961065736,
+        "duration" : 2024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When User views the product and clicks on add to cart",
+      "uid" : "af9fc825786d904b",
+      "parentUid" : "d0b546ba23619968e65239725aaa193d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961065736,
+        "stop" : 1615961089156,
+        "duration" : 23420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then The user should be able to complete the purchase",
+      "uid" : "e0fe51242c7d0fed",
+      "parentUid" : "d0b546ba23619968e65239725aaa193d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961089156,
+        "stop" : 1615961116101,
+        "duration" : 26945
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "d08f8f3ef03ee103",
+      "parentUid" : "d0b546ba23619968e65239725aaa193d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615961116102,
+        "stop" : 1615961116102,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "d0b546ba23619968e65239725aaa193d"
+  } ]
 }

@@ -1,0 +1,74 @@
+{
+  "uid" : "5f435ea69aad911a",
+  "name" : "Then I should navigate to the personal information page",
+  "fullName" : "The Automation Practice site E2E flow: As a new user, I want to create a new account.Then I should navigate to the personal information page",
+  "historyId" : "ca348fa6b20e364d1df9f21268b96683",
+  "time" : {
+    "start" : 1615961058373,
+    "stop" : 1615961058739,
+    "duration" : 366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7dd468f54cc0bd0f",
+      "name" : "Screenshot",
+      "source" : "7dd468f54cc0bd0f.png",
+      "type" : "image/png",
+      "size" : 43267
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should navigate to the personal information page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f435ea69aad911a.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

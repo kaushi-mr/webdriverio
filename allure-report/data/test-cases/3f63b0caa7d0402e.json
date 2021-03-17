@@ -1,0 +1,74 @@
+{
+  "uid" : "3f63b0caa7d0402e",
+  "name" : "When I enter the emailID and click on the Create an Account button",
+  "fullName" : "The Automation Practice site E2E flow: As a new user, I want to create a new account.When I enter the emailID and click on the Create an Account button",
+  "historyId" : "96449e556cf3d338283276b75e6a4d5a",
+  "time" : {
+    "start" : 1615961047598,
+    "stop" : 1615961058373,
+    "duration" : 10775
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "589feb93221aade4",
+      "name" : "Screenshot",
+      "source" : "589feb93221aade4.png",
+      "type" : "image/png",
+      "size" : 180099
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter the emailID and click on the Create an Account button"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to create a new account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f63b0caa7d0402e.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "d32c4f7dbc646ca8",
+  "name" : "",
+  "fullName" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application.",
+  "historyId" : "f3ce8b8742e4849d312382c517c4310e",
+  "time" : {
+    "start" : 1615961016723,
+    "stop" : 1615961016726,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow: As a new user, I want to signin to the application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d32c4f7dbc646ca8.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

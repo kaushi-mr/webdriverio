@@ -1,0 +1,116 @@
+{
+  "uid" : "fd065a09550e0057",
+  "name" : "To add a product to cart",
+  "fullName" : "The Automation Practice site E2E flow.To add a product to cart",
+  "historyId" : "992fc253f0f7bdafc8416248b138321f",
+  "time" : {
+    "start" : 1615814889534,
+    "stop" : 1615814935824,
+    "duration" : 46290
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <span>...</span> is not clickable at point (72, 457). Other element would receive the click: <div class=\"fancybox-overlay fancybox-overlay-fixed\" style=\"display: block; width: auto; height: auto;\">...</div>",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <span>...</span> is not clickable at point (72, 457). Other element would receive the click: <div class=\"fancybox-overlay fancybox-overlay-fixed\" style=\"display: block; width: auto; height: auto;\">...</div>\n                  (Session info: chrome=89.0.4389.82)\n                    at Object.getErrorFromResponseBody (D:\\playproject\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\playproject\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\playproject\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\playproject\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at ShoppingCartPage.proceedToCheckoutButton (D:\\playproject\\features\\pageobjects\\/shoppingcart.page.js:34:9)\n                    at World.<anonymous> (D:\\playproject\\features\\step-definitions\\/stepsNew.js:61:5)\n                    at World.executeAsync (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:137:16)\n                    at World.exports.testFrameworkFnWrapper (D:\\playproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <span>...</span> is not clickable at point (72, 457). Other element would receive the click: <div class=\"fancybox-overlay fancybox-overlay-fixed\" style=\"display: block; width: auto; height: auto;\">...</div>",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <span>...</span> is not clickable at point (72, 457). Other element would receive the click: <div class=\"fancybox-overlay fancybox-overlay-fixed\" style=\"display: block; width: auto; height: auto;\">...</div>\n                  (Session info: chrome=89.0.4389.82)\n                    at Object.getErrorFromResponseBody (D:\\playproject\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\playproject\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\playproject\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\playproject\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at ShoppingCartPage.proceedToCheckoutButton (D:\\playproject\\features\\pageobjects\\/shoppingcart.page.js:34:9)\n                    at World.<anonymous> (D:\\playproject\\features\\step-definitions\\/stepsNew.js:61:5)\n                    at World.executeAsync (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:137:16)\n                    at World.exports.testFrameworkFnWrapper (D:\\playproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:18)",
+    "steps" : [ {
+      "name" : "Given User is logged in and on home page",
+      "time" : {
+        "start" : 1615814889535,
+        "stop" : 1615814892772,
+        "duration" : 3237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User views the product and clicks on add to cart",
+      "time" : {
+        "start" : 1615814892772,
+        "stop" : 1615814915448,
+        "duration" : 22676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then The user should be able to complete the purchase",
+      "time" : {
+        "start" : 1615814915448,
+        "stop" : 1615814935823,
+        "duration" : 20375
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <span>...</span> is not clickable at point (72, 457). Other element would receive the click: <div class=\"fancybox-overlay fancybox-overlay-fixed\" style=\"display: block; width: auto; height: auto;\">...</div>\n                  (Session info: chrome=89.0.4389.82)\n                    at Object.getErrorFromResponseBody (D:\\playproject\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\playproject\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\playproject\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\playproject\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:79:29)\n                    at ShoppingCartPage.proceedToCheckoutButton (D:\\playproject\\features\\pageobjects\\/shoppingcart.page.js:34:9)\n                    at World.<anonymous> (D:\\playproject\\features\\step-definitions\\/stepsNew.js:61:5)\n                    at World.executeAsync (D:\\playproject\\node_modules\\@wdio\\utils\\build\\shim.js:137:16)\n                    at World.exports.testFrameworkFnWrapper (D:\\playproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:18)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "testMethod",
+    "value" : "To add a product to cart"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice site E2E flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd065a09550e0057.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}
