@@ -6,3 +6,6 @@
 npm run test
 6) Once the test is executed, to generate and view the allure report, run the npm command 
 npm run allure-reports
+
+
+Note: Few hard waits have been used for debug and for the ease of visuals, it can be commented out later.
